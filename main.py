@@ -55,12 +55,12 @@ green = (0, 255, 0)
 white = (255, 255, 255)
 
 
-# # უკანა ფონის სურათი
-# bg = pygame.image.load("img/bg.png")
+# უკანა ფონის სურათი
+bg = pygame.image.load("img/bg.png")
 
-# # Function to draw the background
-# def draw_bg():
-#     screen.blit(bg, (0, 0))
+# Function to draw the background
+def draw_bg():
+    screen.blit(bg, (0, 0))
 
 
 # # ფუნქცია ტექსტის გამოჩენისთვის
