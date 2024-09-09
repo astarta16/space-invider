@@ -15,9 +15,9 @@ clock = pygame.time.Clock()
 fps = 60  
 
 
-# #სიგრძე და სიგანე 
-# screen_width = 600
-# screen_height = 800
+#სიგრძე და სიგანე 
+screen_width = 600
+screen_height = 800
 
 # #სიგრძის და სიგანის მიხედვით ფანჯრის გამოჩენა
 # screen = pygame.display.set_mode((screen_width, screen_height))
