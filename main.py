@@ -94,14 +94,14 @@ class Spaceship(pygame.sprite.Sprite):
         if key[pygame.K_RIGHT] and self.rect.right < screen_width:
             self.rect.x += speed
 
-#         # Record current time
-#         time_now = pygame.time.get_ticks()
-#         # Shoot bullets
-#         if key[pygame.K_SPACE] and time_now - self.last_shot > cooldown:
-#             laser_fx.play()
-#             bullet = Bullets(self.rect.centerx, self.rect.top)
-#             bullet_group.add(bullet)
-#             self.last_shot = time_now
+        # Record current time
+        time_now = pygame.time.get_ticks()
+        # Shoot bullets
+        if key[pygame.K_SPACE] and time_now - self.last_shot > cooldown:
+            laser_fx.play()
+            bullet = Bullets(self.rect.centerx, self.rect.top)
+            bullet_group.add(bullet)
+            self.last_shot = time_now
 
 #         # Update mask for collision detection
 #         self.mask = pygame.mask.from_surface(self.image)
