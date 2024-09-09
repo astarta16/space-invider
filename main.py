@@ -87,12 +87,12 @@ class Spaceship(pygame.sprite.Sprite):
         cooldown = 500  # Milliseconds
         game_over = 0
 
-#         # Get key press
-#         key = pygame.key.get_pressed()
-#         if key[pygame.K_LEFT] and self.rect.left > 0:
-#             self.rect.x -= speed
-#         if key[pygame.K_RIGHT] and self.rect.right < screen_width:
-#             self.rect.x += speed
+        # Get key press
+        key = pygame.key.get_pressed()
+        if key[pygame.K_LEFT] and self.rect.left > 0:
+            self.rect.x -= speed
+        if key[pygame.K_RIGHT] and self.rect.right < screen_width:
+            self.rect.x += speed
 
 #         # Record current time
 #         time_now = pygame.time.get_ticks()
