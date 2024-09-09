@@ -118,13 +118,13 @@ class Spaceship(pygame.sprite.Sprite):
         return game_over
 
 
-# # ტყვიების კლასის შექმნა, ფოტოს შემოტანა
-# class Bullets(pygame.sprite.Sprite):
-#     def __init__(self, x, y):
-#         pygame.sprite.Sprite.__init__(self)
-#         self.image = pygame.image.load("img/bullet.png")
-#         self.rect = self.image.get_rect()
-#         self.rect.center = [x, y]
+# ტყვიების კლასის შექმნა, ფოტოს შემოტანა
+class Bullets(pygame.sprite.Sprite):
+    def __init__(self, x, y):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.image.load("img/bullet.png")
+        self.rect = self.image.get_rect()
+        self.rect.center = [x, y]
 
 #     def update(self):
 #         self.rect.y -= 5
