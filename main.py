@@ -293,10 +293,10 @@ class Bullets(pygame.sprite.Sprite):
 #     explosion_group.draw(screen)
 
    
-#     for event in pygame.event.get():
-#         if event.type == pygame.QUIT:
-#             run = False
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
 
-#     pygame.display.update()  # აფდეითი
+    pygame.display.update()  # აფდეითი
 
 pygame.quit()  # Quit the game
