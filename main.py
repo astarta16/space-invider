@@ -10,9 +10,9 @@ mixer.init()  # Initializing the mixer module
 pygame.init()  # Initializing Pygame
 
 
-# # ფპს ის მითითება
-# clock = pygame.time.Clock()
-# fps = 60  
+# ფპს ის მითითება
+clock = pygame.time.Clock()
+fps = 60  
 
 
 # #სიგრძე და სიგანე 
