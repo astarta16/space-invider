@@ -106,16 +106,16 @@ class Spaceship(pygame.sprite.Sprite):
         # Update mask for collision detection
         self.mask = pygame.mask.from_surface(self.image)
 
-#         # Draw health bar
-#         pygame.draw.rect(screen, red, (self.rect.x, (self.rect.bottom + 10), self.rect.width, 15))
-#         if self.health_remaining > 0:
-#             pygame.draw.rect(screen, green, (self.rect.x, (self.rect.bottom + 10), int(self.rect.width * (self.health_remaining / self.health_start)), 15))
-#         elif self.health_remaining <= 0:
-#             explosion = Explosion(self.rect.centerx, self.rect.centery, 3)
-#             explosion_group.add(explosion)
-#             self.kill()
-#             game_over = -1
-#         return game_over
+        # Draw health bar
+        pygame.draw.rect(screen, red, (self.rect.x, (self.rect.bottom + 10), self.rect.width, 15))
+        if self.health_remaining > 0:
+            pygame.draw.rect(screen, green, (self.rect.x, (self.rect.bottom + 10), int(self.rect.width * (self.health_remaining / self.health_start)), 15))
+        elif self.health_remaining <= 0:
+            explosion = Explosion(self.rect.centerx, self.rect.centery, 3)
+            explosion_group.add(explosion)
+            self.kill()
+            game_over = -1
+        return game_over
 
 
 # # ტყვიების კლასის შექმნა, ფოტოს შემოტანა
