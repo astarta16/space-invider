@@ -282,8 +282,8 @@ class Bullets(pygame.sprite.Sprite):
 #             countdown -= 1
 #             last_count = count_timer
 
-#     # Update explosion group    
-#     explosion_group.update()
+    # Update explosion group    
+    explosion_group.update()
 
     # Draw sprite groups
     spaceship_group.draw(screen)
