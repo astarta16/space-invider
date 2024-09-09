@@ -69,16 +69,16 @@ def draw_text(text, font, text_col, x, y):
     screen.blit(img, (x, y))
 
 
-# # Create spaceship class
-# class Spaceship(pygame.sprite.Sprite):
-#     def __init__(self, x, y, health):
-#         pygame.sprite.Sprite.__init__(self)
-#         self.image = pygame.image.load("img/spaceship.png")
-#         self.rect = self.image.get_rect()
-#         self.rect.center = [x, y]
-#         self.health_start = health
-#         self.health_remaining = health
-#         self.last_shot = pygame.time.get_ticks()
+# Create spaceship class
+class Spaceship(pygame.sprite.Sprite):
+    def __init__(self, x, y, health):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.image.load("img/spaceship.png")
+        self.rect = self.image.get_rect()
+        self.rect.center = [x, y]
+        self.health_start = health
+        self.health_remaining = health
+        self.last_shot = pygame.time.get_ticks()
 
 #     def update(self):
 #         # Set movement speed
