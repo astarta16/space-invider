@@ -4,10 +4,10 @@ from pygame.locals import *
 import random 
 
 
-# #ინიციალიზება ყველა ბრძანების გააქტიურება
-# pygame.mixer.pre_init(44100, -16, 2, 512)
-# mixer.init()  # Initializing the mixer module
-# pygame.init()  # Initializing Pygame
+#ინიციალიზება ყველა ბრძანების გააქტიურება
+pygame.mixer.pre_init(44100, -16, 2, 512)
+mixer.init()  # Initializing the mixer module
+pygame.init()  # Initializing Pygame
 
 
 # # ფპს ის მითითება
