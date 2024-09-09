@@ -285,12 +285,12 @@ class Bullets(pygame.sprite.Sprite):
 #     # Update explosion group    
 #     explosion_group.update()
 
-#     # Draw sprite groups
-#     spaceship_group.draw(screen)
-#     bullet_group.draw(screen)
-#     alien_group.draw(screen)
-#     alien_bullet_group.draw(screen)
-#     explosion_group.draw(screen)
+    # Draw sprite groups
+    spaceship_group.draw(screen)
+    bullet_group.draw(screen)
+    alien_group.draw(screen)
+    alien_bullet_group.draw(screen)
+    explosion_group.draw(screen)
 
    
     for event in pygame.event.get():
