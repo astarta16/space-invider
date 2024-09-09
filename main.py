@@ -80,12 +80,12 @@ class Spaceship(pygame.sprite.Sprite):
         self.health_remaining = health
         self.last_shot = pygame.time.get_ticks()
 
-#     def update(self):
-#         # Set movement speed
-#         speed = 8
-#         # Set a cooldown variable
-#         cooldown = 500  # Milliseconds
-#         game_over = 0
+    def update(self):
+        # Set movement speed
+        speed = 8
+        # Set a cooldown variable
+        cooldown = 500  # Milliseconds
+        game_over = 0
 
 #         # Get key press
 #         key = pygame.key.get_pressed()
