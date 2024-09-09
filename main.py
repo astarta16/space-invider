@@ -49,10 +49,10 @@ countdown = 3  # Countdown timer before the game starts
 last_count = pygame.time.get_ticks()  # Time when the last countdown tick occurred
 game_over = 0  # 0 means game is ongoing, 1 means player has won, -1 means player has lost
 
-# # Define color constants
-# red = (255, 0, 0)
-# green = (0, 255, 0)
-# white = (255, 255, 255)
+# Define color constants
+red = (255, 0, 0)
+green = (0, 255, 0)
+white = (255, 255, 255)
 
 
 # # უკანა ფონის სურათი
