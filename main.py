@@ -299,4 +299,4 @@ class Bullets(pygame.sprite.Sprite):
 
 #     pygame.display.update()  # აფდეითი
 
-# pygame.quit()  # Quit the game
+pygame.quit()  # Quit the game
