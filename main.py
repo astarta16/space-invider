@@ -231,9 +231,9 @@ class Bullets(pygame.sprite.Sprite):
 # create_aliens()  # Create the initial set of aliens
 
 
-# # Create the player spaceship
-# spaceship = Spaceship(int(screen_width / 2), screen_height - 100, 3)
-# spaceship_group.add(spaceship)
+# Create the player spaceship
+spaceship = Spaceship(int(screen_width / 2), screen_height - 100, 3)
+spaceship_group.add(spaceship)
 
 
 # Main game loop
