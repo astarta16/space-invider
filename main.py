@@ -197,19 +197,19 @@ class Bullets(pygame.sprite.Sprite):
 #         self.rect.center = [x, y]
 #         self.counter = 0
 
-#     def update(self):
-#         explosion_speed = 3
-#         # Update explosion animation
-#         self.counter += 1
+    def update(self):
+        explosion_speed = 3
+        # Update explosion animation
+        self.counter += 1
 
-#         if self.counter >= explosion_speed and self.index < len(self.images) - 1:
-#             self.counter = 0
-#             self.index += 1
-#             self.image = self.images[self.index]
+        if self.counter >= explosion_speed and self.index < len(self.images) - 1:
+            self.counter = 0
+            self.index += 1
+            self.image = self.images[self.index]
 
-#         # If the animation is complete, delete the explosion
-#         if self.index >= len(self.images) - 1 and self.counter >= explosion_speed:
-#             self.kill()
+        # If the animation is complete, delete the explosion
+        if self.index >= len(self.images) - 1 and self.counter >= explosion_speed:
+            self.kill()
 
 
 # Create sprite groups
