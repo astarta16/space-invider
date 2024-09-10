@@ -220,15 +220,15 @@ class Bullets(pygame.sprite.Sprite):
 # explosion_group = pygame.sprite.Group()
 
 
-# # Function to create aliens
-# def create_aliens():
-#     # Generate aliens in a grid pattern
-#     for row in range(rows):
-#         for item in range(cols):
-#             alien = Aliens(100 + item * 100, 100 + row * 70)
-#             alien_group.add(alien)
+# Function to create aliens
+def create_aliens():
+    # Generate aliens in a grid pattern
+    for row in range(rows):
+        for item in range(cols):
+            alien = Aliens(100 + item * 100, 100 + row * 70)
+            alien_group.add(alien)
 
-# create_aliens()  # Create the initial set of aliens
+create_aliens()  # Create the initial set of aliens
 
 
 # Create the player spaceship
