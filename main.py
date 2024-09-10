@@ -155,25 +155,25 @@ class Bullets(pygame.sprite.Sprite):
 #             self.move_counter *= self.move_direction
 
 
-# # Create Alien Bullets class
-# class Alien_Bullets(pygame.sprite.Sprite):
-#     def __init__(self, x, y):
-#         pygame.sprite.Sprite.__init__(self)
-#         self.image = pygame.image.load("img/alien_bullet.png")
-#         self.rect = self.image.get_rect()
-#         self.rect.center = [x, y]
+# Create Alien Bullets class
+class Alien_Bullets(pygame.sprite.Sprite):
+    def __init__(self, x, y):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.image.load("img/alien_bullet.png")
+        self.rect = self.image.get_rect()
+        self.rect.center = [x, y]
 
-#     def update(self):
-#         self.rect.y += 2
-#         if self.rect.top > screen_height:
-#             self.kill()
-#         if pygame.sprite.spritecollide(self, spaceship_group, False, pygame.sprite.collide_mask):
-#             self.kill()
-#             explosion2_fx.play()
-#             # Reduce spaceship health
-#             spaceship.health_remaining -= 1
-#             explosion = Explosion(self.rect.centerx, self.rect.centery, 1)
-#             explosion_group.add(explosion)
+    def update(self):
+        self.rect.y += 2
+        if self.rect.top > screen_height:
+            self.kill()
+        if pygame.sprite.spritecollide(self, spaceship_group, False, pygame.sprite.collide_mask):
+            self.kill()
+            explosion2_fx.play()
+            # Reduce spaceship health
+            spaceship.health_remaining -= 1
+            explosion = Explosion(self.rect.centerx, self.rect.centery, 1)
+            explosion_group.add(explosion)
 
 
 # Create Explosion class
