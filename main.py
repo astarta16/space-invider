@@ -274,13 +274,13 @@ class Bullets(pygame.sprite.Sprite):
 #             if game_over == 1:
 #                 draw_text('YOU WIN!', font40, white, int(screen_width / 2 - 100), int(screen_height / 2 + 50))
 
-#     if countdown > 0:
-#         draw_text('GET READY!', font40, white, int(screen_width / 2 - 110), int(screen_height / 2 + 50))
-#         draw_text(str(countdown), font40, white, int(screen_width / 2 - 10), int(screen_height / 2 + 100))
-#         count_timer = pygame.time.get_ticks()
-#         if count_timer - last_count > 1000:
-#             countdown -= 1
-#             last_count = count_timer
+    if countdown > 0:
+        draw_text('GET READY!', font40, white, int(screen_width / 2 - 110), int(screen_height / 2 + 50))
+        draw_text(str(countdown), font40, white, int(screen_width / 2 - 10), int(screen_height / 2 + 100))
+        count_timer = pygame.time.get_ticks()
+        if count_timer - last_count > 1000:
+            countdown -= 1
+            last_count = count_timer
 
     # Update explosion group    
     explosion_group.update()
