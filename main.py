@@ -260,19 +260,19 @@ class Bullets(pygame.sprite.Sprite):
 #         if len(alien_group) == 0:
 #             game_over = 1
 
-#         if game_over == 0:
-#             # Update spaceship
-#             game_over = spaceship.update()
+        if game_over == 0:
+            # Update spaceship
+            game_over = spaceship.update()
 
-#             # Update sprite groups
-#             bullet_group.update()
-#             alien_group.update()
-#             alien_bullet_group.update()
-#         else:
-#             if game_over == -1:
-#                 draw_text('GAME OVER!', font40, white, int(screen_width / 2 - 100), int(screen_height / 2 + 50))
-#             if game_over == 1:
-#                 draw_text('YOU WIN!', font40, white, int(screen_width / 2 - 100), int(screen_height / 2 + 50))
+            # Update sprite groups
+            bullet_group.update()
+            alien_group.update()
+            alien_bullet_group.update()
+        else:
+            if game_over == -1:
+                draw_text('GAME OVER!', font40, white, int(screen_width / 2 - 100), int(screen_height / 2 + 50))
+            if game_over == 1:
+                draw_text('YOU WIN!', font40, white, int(screen_width / 2 - 100), int(screen_height / 2 + 50))
 
     if countdown > 0:
         draw_text('GET READY!', font40, white, int(screen_width / 2 - 110), int(screen_height / 2 + 50))
