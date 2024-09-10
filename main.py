@@ -245,16 +245,16 @@ class Bullets(pygame.sprite.Sprite):
 #     # Draw background
 #     draw_bg()
 
-#     if countdown == 0:
-#         # Create random alien bullets
-#         # Record current time
-#         time_now = pygame.time.get_ticks()
-#         # Shoot alien bullets at intervals
-#         if time_now - last_alien_shot > alien_cooldown and len(alien_bullet_group) < 5 and len(alien_group) > 0:
-#             attacking_alien = random.choice(alien_group.sprites())
-#             alien_bullet = Alien_Bullets(attacking_alien.rect.centerx, attacking_alien.rect.bottom)
-#             alien_bullet_group.add(alien_bullet)
-#             last_alien_shot = time_now
+    if countdown == 0:
+        # Create random alien bullets
+        # Record current time
+        time_now = pygame.time.get_ticks()
+        # Shoot alien bullets at intervals
+        if time_now - last_alien_shot > alien_cooldown and len(alien_bullet_group) < 5 and len(alien_group) > 0:
+            attacking_alien = random.choice(alien_group.sprites())
+            alien_bullet = Alien_Bullets(attacking_alien.rect.centerx, attacking_alien.rect.bottom)
+            alien_bullet_group.add(alien_bullet)
+            last_alien_shot = time_now
 
         # Check if all the aliens have been killed
         if len(alien_group) == 0:
