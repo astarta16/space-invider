@@ -212,12 +212,12 @@ class Bullets(pygame.sprite.Sprite):
 #             self.kill()
 
 
-# # Create sprite groups
-# spaceship_group = pygame.sprite.Group()
-# bullet_group = pygame.sprite.Group()
-# alien_group = pygame.sprite.Group()
-# alien_bullet_group = pygame.sprite.Group()
-# explosion_group = pygame.sprite.Group()
+# Create sprite groups
+spaceship_group = pygame.sprite.Group()
+bullet_group = pygame.sprite.Group()
+alien_group = pygame.sprite.Group()
+alien_bullet_group = pygame.sprite.Group()
+explosion_group = pygame.sprite.Group()
 
 
 # Function to create aliens
