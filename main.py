@@ -236,14 +236,14 @@ class Bullets(pygame.sprite.Sprite):
 # spaceship_group.add(spaceship)
 
 
-# # Main game loop
-# run = True
-# while run:
+# Main game loop
+run = True
+while run:
 
-#     clock.tick(fps)  # Control the game frame rate
+    clock.tick(fps)  # Control the game frame rate
 
-#     # Draw background
-#     draw_bg()
+    # Draw background
+    draw_bg()
 
     if countdown == 0:
         # Create random alien bullets
