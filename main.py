@@ -45,7 +45,7 @@ rows = 5
 cols = 5
 alien_cooldown = 1000  
 last_alien_shot = pygame.time.get_ticks() 
-countdown = 3  # Countdown timer before the game starts
+countdown = 3  
 last_count = pygame.time.get_ticks()  # Time when the last countdown tick occurred
 game_over = 0  # 0 means game is ongoing, 1 means player has won, -1 means player has lost
 
