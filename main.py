@@ -6,8 +6,8 @@ import random
 
 #ინიციალიზება ყველა ბრძანების გააქტიურება
 pygame.mixer.pre_init(44100, -16, 2, 512)
-mixer.init()  # Initializing the mixer module
-pygame.init()  # Initializing Pygame
+mixer.init() 
+pygame.init()
 
 
 # ფპს ის მითითება
