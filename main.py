@@ -94,7 +94,6 @@ class Spaceship(pygame.sprite.Sprite):
         if key[pygame.K_RIGHT] and self.rect.right < screen_width:
             self.rect.x += speed
 
-        # Record current time
         time_now = pygame.time.get_ticks()
         # Shoot bullets
         if key[pygame.K_SPACE] and time_now - self.last_shot > cooldown:
