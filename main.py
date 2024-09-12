@@ -211,7 +211,6 @@ class Explosion(pygame.sprite.Sprite):
             self.kill()
 
 
-# Create sprite groups
 spaceship_group = pygame.sprite.Group()
 bullet_group = pygame.sprite.Group()
 alien_group = pygame.sprite.Group()
