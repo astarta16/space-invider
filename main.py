@@ -101,7 +101,6 @@ class Spaceship(pygame.sprite.Sprite):
             bullet_group.add(bullet)
             self.last_shot = time_now
 
-        # Update mask for collision detection
         self.mask = pygame.mask.from_surface(self.image)
 
         # Draw health bar
