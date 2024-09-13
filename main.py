@@ -13,7 +13,6 @@ clock = pygame.time.Clock()
 fps = 60  
 
 
-#სიგრძე და სიგანე 
 screen_width = 600
 screen_height = 800
 
