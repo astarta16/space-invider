@@ -34,7 +34,6 @@ laser_fx = pygame.mixer.Sound("img/laser.wav")
 laser_fx.set_volume(0.25)
 
 
-# თამაშის ცვლადები
 rows = 5
 cols = 5
 alien_cooldown = 1000  
