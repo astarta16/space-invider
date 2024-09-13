@@ -58,7 +58,6 @@ def draw_text(text, font, text_col, x, y):
     screen.blit(img, (x, y))
 
 
-# Create spaceship class
 class Spaceship(pygame.sprite.Sprite):
     def __init__(self, x, y, health):
         pygame.sprite.Sprite.__init__(self)
@@ -71,7 +70,6 @@ class Spaceship(pygame.sprite.Sprite):
 
     def update(self):
         speed = 8
-        # Set a cooldown variable
         cooldown = 500 
         game_over = 0
 
