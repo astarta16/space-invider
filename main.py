@@ -4,7 +4,6 @@ from pygame.locals import *
 import random 
 
 
-#ინიციალიზება ყველა ბრძანების გააქტიურება
 pygame.mixer.pre_init(44100, -16, 2, 512)
 mixer.init() 
 pygame.init()
