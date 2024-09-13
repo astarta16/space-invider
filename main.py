@@ -73,7 +73,6 @@ class Spaceship(pygame.sprite.Sprite):
         cooldown = 500 
         game_over = 0
 
-        # Get key press
         key = pygame.key.get_pressed()
         if key[pygame.K_LEFT] and self.rect.left > 0:
             self.rect.x -= speed
