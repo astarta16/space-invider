@@ -53,7 +53,6 @@ def draw_bg():
     screen.blit(bg, (0, 0))
 
 
-# ფუნქცია ტექსტის გამოჩენისთვის
 def draw_text(text, font, text_col, x, y):
     img = font.render(text, True, text_col)
     screen.blit(img, (x, y))
