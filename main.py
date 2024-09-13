@@ -80,7 +80,6 @@ class Spaceship(pygame.sprite.Sprite):
             self.rect.x += speed
 
         time_now = pygame.time.get_ticks()
-        # Shoot bullets
         if key[pygame.K_SPACE] and time_now - self.last_shot > cooldown:
             laser_fx.play()
             bullet = Bullets(self.rect.centerx, self.rect.top)
