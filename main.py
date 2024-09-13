@@ -9,7 +9,6 @@ mixer.init()
 pygame.init()
 
 
-# ფპს ის მითითება
 clock = pygame.time.Clock()
 fps = 60  
 
