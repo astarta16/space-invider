@@ -42,7 +42,6 @@ countdown = 3
 last_count = pygame.time.get_ticks()  
 game_over = 0  
 
-# Define color constants
 red = (255, 0, 0)
 green = (0, 255, 0)
 white = (255, 255, 255)
