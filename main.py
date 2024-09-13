@@ -24,7 +24,6 @@ font30 = pygame.font.SysFont('Constantia', 30)
 font40 = pygame.font.SysFont('Constantia', 40)
 
 
-# ხმების შემოტანა
 explosion_fx = pygame.mixer.Sound("img/explosion.wav")
 explosion_fx.set_volume(0.25)
 
