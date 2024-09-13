@@ -99,7 +99,6 @@ class Spaceship(pygame.sprite.Sprite):
         return game_over
 
 
-# ტყვიების კლასის შექმნა, ფოტოს შემოტანა
 class Bullets(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
