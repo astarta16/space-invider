@@ -134,7 +134,6 @@ class Aliens(pygame.sprite.Sprite):
             self.move_counter *= self.move_direction
 
 
-# Create Alien Bullets class
 class Alien_Bullets(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
