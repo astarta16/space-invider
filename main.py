@@ -153,7 +153,6 @@ class Alien_Bullets(pygame.sprite.Sprite):
             explosion_group.add(explosion)
 
 
-# Create Explosion class
 class Explosion(pygame.sprite.Sprite):
     def __init__(self, x, y, size):
         pygame.sprite.Sprite.__init__(self)
