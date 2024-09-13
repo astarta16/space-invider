@@ -20,7 +20,6 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Space Invaders')
 
 
-#ტექსტის სტილები და ზომები
 font30 = pygame.font.SysFont('Constantia', 30)
 font40 = pygame.font.SysFont('Constantia', 40)
 
