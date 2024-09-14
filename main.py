@@ -182,7 +182,6 @@ class Explosion(pygame.sprite.Sprite):
             self.index += 1
             self.image = self.images[self.index]
 
-        # If the animation is complete, delete the explosion
         if self.index >= len(self.images) - 1 and self.counter >= explosion_speed:
             self.kill()
 
