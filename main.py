@@ -193,7 +193,6 @@ alien_bullet_group = pygame.sprite.Group()
 explosion_group = pygame.sprite.Group()
 
 
-# Function to create aliens
 def create_aliens():
     # Generate aliens in a grid pattern
     for row in range(rows):
