@@ -198,7 +198,7 @@ def create_aliens():
             alien = Aliens(100 + item * 100, 100 + row * 70)
             alien_group.add(alien)
 
-create_aliens()  # Create the initial set of aliens
+create_aliens() 
 
 
 spaceship = Spaceship(int(screen_width / 2), screen_height - 100, 3)
