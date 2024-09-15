@@ -266,6 +266,6 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    pygame.display.update()  # აფდეითი
+    pygame.display.update() 
 
 pygame.quit()  # Quit the game
