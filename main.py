@@ -213,7 +213,6 @@ while run:
     draw_bg()
 
     if countdown == 0:
-        # Create random alien bullets
         # Record current time
         time_now = pygame.time.get_ticks()
         # Shoot alien bullets at intervals
