@@ -205,7 +205,6 @@ spaceship = Spaceship(int(screen_width / 2), screen_height - 100, 3)
 spaceship_group.add(spaceship)
 
 
-# Main game loop
 run = True
 while run:
 
