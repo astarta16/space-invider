@@ -193,7 +193,6 @@ explosion_group = pygame.sprite.Group()
 
 
 def create_aliens():
-    # Generate aliens in a grid pattern
     for row in range(rows):
         for item in range(cols):
             alien = Aliens(100 + item * 100, 100 + row * 70)
