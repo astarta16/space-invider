@@ -268,4 +268,4 @@ while run:
 
     pygame.display.update() 
 
-pygame.quit()  # Quit the game
+pygame.quit() 
