@@ -209,7 +209,7 @@ spaceship_group.add(spaceship)
 run = True
 while run:
 
-    clock.tick(fps)  # Control the game frame rate
+    clock.tick(fps) 
 
     # Draw background
     draw_bg()
