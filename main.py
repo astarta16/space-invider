@@ -210,7 +210,6 @@ while run:
 
     clock.tick(fps) 
 
-    # Draw background
     draw_bg()
 
     if countdown == 0:
