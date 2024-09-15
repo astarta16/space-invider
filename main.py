@@ -214,7 +214,6 @@ while run:
 
     if countdown == 0:
         time_now = pygame.time.get_ticks()
-        # Shoot alien bullets at intervals
         if time_now - last_alien_shot > alien_cooldown and len(alien_bullet_group) < 5 and len(alien_group) > 0:
             attacking_alien = random.choice(alien_group.sprites())
             alien_bullet = Alien_Bullets(attacking_alien.rect.centerx, attacking_alien.rect.bottom)
