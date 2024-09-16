@@ -226,7 +226,6 @@ while run:
         if game_over == 0:
             game_over = spaceship.update()
 
-            # Update sprite groups
             bullet_group.update()
             alien_group.update()
             alien_bullet_group.update()
