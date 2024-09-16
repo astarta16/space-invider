@@ -243,7 +243,6 @@ while run:
             countdown -= 1
             last_count = count_timer
 
-    # Update explosion group    
     explosion_group.update()
 
     # Draw sprite groups
