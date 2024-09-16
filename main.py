@@ -224,7 +224,6 @@ while run:
             game_over = 1
 
         if game_over == 0:
-            # Update spaceship
             game_over = spaceship.update()
 
             # Update sprite groups
