@@ -245,7 +245,6 @@ while run:
 
     explosion_group.update()
 
-    # Draw sprite groups
     spaceship_group.draw(screen)
     bullet_group.draw(screen)
     alien_group.draw(screen)
