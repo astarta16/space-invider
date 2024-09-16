@@ -220,7 +220,6 @@ while run:
             alien_bullet_group.add(alien_bullet)
             last_alien_shot = time_now
 
-        # Check if all the aliens have been killed
         if len(alien_group) == 0:
             game_over = 1
 
