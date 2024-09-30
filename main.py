@@ -1,7 +1,7 @@
 import pygame  
 from pygame import mixer  
 from pygame.locals import * 
-import random 
+import random #add
 
 
 pygame.mixer.pre_init(44100, -16, 2, 512)
